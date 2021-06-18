@@ -2,10 +2,10 @@ import tkinter
 from tkinter import *
 from tkinter import filedialog
 from tkinter import Frame
-import Summarize as summarize
-import extract_entities as ex_entities
-import fact_extraction as fact_ex
-import redact_text as redact_x
+import Summarizer.Summarize as summarize
+import Summarizer.extract_entities as ex_entities
+import Summarizer.fact_extraction as fact_ex
+import Summarizer.redact_text as redact_x
 
 root = Tk()
 root.title("Edit, Summarize, and Tokenize Text with SpaCy")
